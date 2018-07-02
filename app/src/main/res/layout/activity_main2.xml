@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abbb"
+    tools:context="com.example.hello.miniprotect.Main2Activity">
+
+    <Button
+        android:id="@+id/clicko"
+        android:layout_width="246dp"
+        android:layout_height="264dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/values"
+        android:clickable="true"
+        android:text="HELP"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
